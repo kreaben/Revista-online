@@ -1,3 +1,14 @@
+.contenido_logo {
+  padding: 1rem;
+}
+
+.contenido_options {
+  display: inline-block;
+  width: 100%;
+  text-align: end;
+  list-style: none;
+}
+
 .contenido_menu {
   display: grid;
   grid-template-columns: 50% 50%;
@@ -38,6 +49,25 @@
     display: inline;
     text-align: center;
   }
+}
+.contenido_logo {
+  font-family: "Courier New", Courier, monospace;
+  font-weight: bolder;
+  font-size: larger;
+}
+
+.contenido_newsletter {
+  text-align: center;
+}
+
+.contenido_footer {
+  text-align: center;
+}
+
+button {
+  background-color: #f3863e;
+  color: white;
+  border: white;
 }
 
 /*# sourceMappingURL=main.css.map */
